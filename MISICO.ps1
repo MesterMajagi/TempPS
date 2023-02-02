@@ -1,4 +1,4 @@
-Start-Transcript -Path C:\MISICO\MISICO.log
+Start-Transcript -Path "C:\MISICO\MISICO.log" -Append -Force
 <#
     MIT License
 
