@@ -1,3 +1,4 @@
+Start-Transcript -Path C:\MISICO\MISICO.log
 <#
     MIT License
 
@@ -1055,6 +1056,7 @@ iex (irm cmsaas.itrelation.dk/Shortcuts-Removed.ps1)
 write-host " "
 write-host -ForegroundColor Green  "To show a list of applications, that has the repair option, run: cmd /c 'powershell.exe iex (irm cmsaas.itrelation.dk/Shortcuts-Repair.ps1') "
 
+Stop-Transcript
 
 # SIG # Begin signature block
 # MIIlogYJKoZIhvcNAQcCoIIlkzCCJY8CAQExDzANBglghkgBZQMEAgEFADB5Bgor
